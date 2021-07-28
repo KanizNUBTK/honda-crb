@@ -1,6 +1,9 @@
 .honda-header-bg-color{
     background-color: #264653;
 }
+.honda-text-size{
+    font-size: 48px;
+}
 .honda-btn-bg-color{
     background-color: #E76F51;
 }
@@ -12,7 +15,28 @@
     width: 300px;
     height: 250px;
 }
+.honda-text-color{
+    color: #E76F51;
+}
 .honda-fetuere-bike-grayimage{
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+.honder-client-card{
+    width: 300px;
+    height: 450px;
+}
+.honder-client-card-image{
+    width: 150px;
+    height: 150px;
+}
+.honda-client-star-color{
+    color: #E77C40;
+}
+.honder-client-name{
+    color: #23A6F0;
+}
+.honda-faq-image{
+    width: 430px;
+    height: 420px;
 }
