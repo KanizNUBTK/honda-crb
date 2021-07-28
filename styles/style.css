@@ -8,3 +8,11 @@
     width: 550px;
     height: 440px;
 }
+.honda-fetuere-bike-image{
+    width: 300px;
+    height: 250px;
+}
+.honda-fetuere-bike-grayimage{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
