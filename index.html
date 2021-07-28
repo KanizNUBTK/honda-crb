@@ -30,7 +30,33 @@
                         dolor do amet sint.<br> Velit officia consequat duis enim velit
                         mollit.<br> Exercitation veniam consequat sunt nostrud amet.
                     </p>
-                    <button class="btn text-white honda-btn-bg-color mt-2 ps-5 pe-5 rounded">Purchase</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn text-white honda-btn-bg-color mt-2 ps-5 pe-5 rounded"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Honda CBR</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Your favorite Honda one is ready for sell
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn honda-btn-bg-color text-white">Purchase</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="header-img">
                     <img src="images/header-bike.png" class="img-fluid" alt="">
