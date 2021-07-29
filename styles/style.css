@@ -40,3 +40,15 @@
     width: 430px;
     height: 420px;
 }
+.honda-card-hover:hover{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 20px 5px gray;
+}
+.honda-text-justify{
+    text-align: justify;
+}
+.honda-card-image-size{
+    width: 250px;
+    height: 250px;
+}
