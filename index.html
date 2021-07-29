@@ -22,18 +22,19 @@
 <body>
     <!-- header section start -->
     <header>
-        <section class="w-auto honda-header-bg-color">
-            <div class="container-fluid d-lg-flex p-lg-5 pt-sm-5">
-                <div class="py-lg-5 px-lg-5">
-                    <p class="text-light fs-6 fw-light pt-5">Computer-controlled digital transistorized with electronic
-                        advance</p>
-                    <h1 class="text-white fw-bold pb-2 honda-text-size">Honda CBR 300R</h1>
-                    <p class="text-light fw-lighter">Amet minim mollit non deserunt ullamco est sit aliqua
+        <section class="honda-header-bg-color">
+            <div class="container-fluid row">
+                <div class="col-lg p-lg-5">
+                    <p class="text-light fs-6 fw-light pt-5 mt-lg-5 ms-lg-5">Computer-controlled digital transistorized
+                        with electronic advance
+                    </p>
+                    <h1 class="text-white fw-bold honda-text-size ms-lg-5">Honda CBR 300R</h1>
+                    <p class="text-light fw-lighter ms-lg-5">Amet minim mollit non deserunt ullamco est sit aliqua
                         dolor do amet sint.<br> Velit officia consequat duis enim velit
                         mollit.<br> Exercitation veniam consequat sunt nostrud amet.
                     </p>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn text-white honda-btn-bg-color mt-2 ps-5 pe-5 rounded"
+                    <button type="button" class="btn text-white honda-btn-bg-color rounded ms-lg-5"
                         data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Purchase
                     </button>
@@ -60,7 +61,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="header-img">
+                <div class="col-lg header-img pt-5 pb-5">
                     <img src="images/header-bike.png" class="img-fluid" alt="">
                 </div>
             </div>
@@ -70,7 +71,7 @@
     <!-- main section start -->
     <main>
         <!-- Fetured Bikes section -->
-        <section class="container-fluid Fetured-Bikes p-5">
+        <section class="w-lg-auto container-fluid Fetured-Bikes pt-5 p-lg-5">
             <div class="container">
                 <div class="text-center">
                     <h1 class="honda-text-size fw-bold">Fetured Bikes 2021</h1>
@@ -94,8 +95,9 @@
             </div>
         </section>
         <!-- happy client sectionn -->
-        <section class="container-fluid">
-            <h1 class="text-center fw-bold honda-text-size">Happy <span class="honda-text-color">Clients says</span>
+        <section class="w-auto container-fluid">
+            <h1 class="text-center fw-bold honda-text-size pt-5">Happy <span class="honda-text-color">Clients
+                    says</span>
             </h1>
             <div class="container p-5 pt-lg-5 d-flex justify-content-center">
                 <div class="row g-lg-4">
@@ -173,15 +175,15 @@
             </div>
         </section>
         <!-- FAQ section -->
-        <section class="container-fluid">
+        <section class="w-auto container-fluid">
             <h1 class="text-center fw-bold honda-text-size">Frequently Asked <span
                     class="honda-text-color">Questions</span> </h1>
-            <div class="container p-lg-5">
+            <div class="container p-lg-5 pt-5">
                 <div class="row justify-content-center">
-                    <div class="col-lg">
+                    <div class="col-lg ">
                         <img src="images/faq.png" class="img-fluid honda-faq-image" alt="">
                     </div>
-                    <div class="col-lg">
+                    <div class="col-lg pt-5">
                         <div class="accordion" id="accordionPanelsStayOpenExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -271,9 +273,9 @@
             </div>
 
         </section>
-        <!-- my work section -->
-        <section class="container-fluid p-5">
-            <div class="container pt-5 d-flex justify-content-center">
+        <!-- my work section-->
+        <section class="container-fluid p-lg-5">
+            <div class="container pt-5">
                 <div class="row g-lg-4">
                     <div class="col-lg-4 pt-4 ps-3 pe-3 pb-4 honda-card-hover">
                         <h2 class="honda-text-color fw-bold">About Us</h2>
@@ -318,6 +320,115 @@
                                         alt="...">
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class="container p-lg-5">
+                <div class="row-lg d-lg-flex">
+                    <div class="col-lg-6 w-50 honda-card-hover p-lg-3">
+                        <h2 class="honda-text-color">Purchase Honda CBR</h2>
+                        <form class="row g-lg-4 needs-validation" novalidate>
+                            <div class="col-lg-6 col-md-4">
+                                <label for="validationCustom01" class="form-label">Name Of Seller</label>
+                                <input type="text" class="form-control" id="validationCustom01" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-4">
+                                <label for="validationCustom02" class="form-label">Email Address Of Seller</label>
+                                <input type="email" class="form-control" id="validationCustom02" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-md-6">
+                                <label for="validationCustom03" class="form-label">Country</label>
+                                <input type="text" class="form-control" id="validationCustom03" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid city.
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-3">
+                                <label for="validationCustom04" class="form-label">City</label>
+                                <select class="form-select" id="validationCustom04" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>Dhaka</option>
+                                    <option>Chittagong</option>
+                                    <option>Rajshahi</option>
+                                    <option>Khulna</option>
+                                    <option>Barisal</option>
+                                    <option>Sylhet</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid state.
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                    <label class="form-check-label" for="invalidCheck">
+                                        Agree to terms and conditions
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        You must agree before submitting.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn honda-btn-bg-color ps-4 pe-4" type="submit">Purchase</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 w-50 honda-card-hover p-lg-3">
+                        <h2 class="honda-text-color p-lg-2">Videos</h2>
+                        <div id="carouselExampleIndicators"
+                            class="carousel slide honda-youtube-video-size mx-lg-auto justify-content-center"
+                            data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <iframe class="honda-youtube-video-size"
+                                        src="https://www.youtube.com/embed/6oFLL5ZHLJY" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="carousel-item">
+                                    <iframe class="honda-youtube-video-size"
+                                        src="https://www.youtube.com/embed/RGhAW4L6LjQ" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="carousel-item">
+                                    <iframe class="honda-youtube-video-size"
+                                        src="https://www.youtube.com/embed/Gm5dq10ssR0" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
                 </div>
